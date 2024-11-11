@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                = "ApLogFramework"
-  spec.version             = "0.0.2"
+  spec.version             = "0.0.4"
   spec.summary             = "A quick logging Library For iOS Apps."
   spec.description         = "ApLogFramework provides basic logging functions to support debugging, error logging, and information tracking in iOS applications."
   spec.homepage            = "https://github.com/ankushkumar5/ApLog"
@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.platform            = :ios, "14.0"
   spec.source              = { :git => "https://github.com/ankushkumar5/ApLog.git", :tag => "#{spec.version}" }
   spec.swift_version       = "5.0"
-  spec.vendored_frameworks = 'SOURCES/ApLogFramework.xcframework.zip'
+  spec.vendored_frameworks = "SOURCES/ApLogFramework.xcframework"
 end

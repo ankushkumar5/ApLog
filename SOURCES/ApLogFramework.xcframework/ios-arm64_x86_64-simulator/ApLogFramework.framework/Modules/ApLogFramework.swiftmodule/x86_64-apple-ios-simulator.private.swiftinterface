@@ -1,0 +1,17 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios14-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ApLogFramework
+@_exported import ApLogFramework
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class ApLog {
+  public static func d(tag: Swift.String, message: Swift.String)
+  public static func e(tag: Swift.String, message: Swift.String)
+  public static func i(tag: Swift.String, message: Swift.String)
+  public static func w(tag: Swift.String, message: Swift.String)
+  public static func v(tag: Swift.String, message: Swift.String)
+  @objc deinit
+}

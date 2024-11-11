@@ -1,0 +1,6 @@
+framework module ApLogFramework {
+  umbrella header "ApLogFramework.h"
+  export *
+
+  module * { export * }
+}

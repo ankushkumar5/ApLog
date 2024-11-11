@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ApLogFramework",
-            url: "https://github.com/ankushkumar5/ApLog/releases/download/0.0.3/ApLogFramework.xcframework.zip",
-            checksum: "a81743be1eb87b6feb7d3075f2ffab94bf8484473454df6a840d3ed40ae53484"
+            url: "https://github.com/ankushkumar5/ApLog/releases/download/0.0.4/ApLogFramework.xcframework.zip",
+            checksum: "6e48f02d4546170adf9f1785cf574ca421cbdbeb90fc0f71f624967ea156bab3"
         )
     ]
 )
